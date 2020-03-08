@@ -1,0 +1,952 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="/fonts/Montserrat-Black.ttf">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/style.min.css">
+  <title>Bootstrap</title>
+</head>
+
+<body>
+
+  <header>
+    <section class="main-header">
+      <div class="container-fueld main-header__background">
+        <div class="container">
+          <div class="row pt-2 pb-2 justify-content-between pt-0 main-haeder__top-header">
+            <div class="col-lg-2 p-0 main-header__logo">
+              <img class="px-0" src="./../img/logo.png" alt="" width="190px" height="50px">
+            </div>
+            <form class="row col-lg-6 main-header__form" action="index.html" method="post">
+              <input class="col-lg-7 main-header__search" type="search" name="" value="">
+              <select class="col-lg-3 main-header__dropdown pl-2 pr-1" name="">
+                <option value="">All Categories</option>
+                <option value=""></option>
+                <option value=""></option>
+                <option value=""></option>
+              </select>
+              <input class="col-lg-1 main-header__submit" type="submit" name="" value="">
+            </form>
+
+            <div class="col-lg-4 row justify-content-between mr-0 navbar p-0 main-header__user-panel-block">
+              <div class="col-lg-4 main-header__user-panel text-center pt-2 navbar-nav flex-row px-0">
+                <a class="col-lg-8 pl-2 p-0" href="">Cart</a>
+                <p class="main-header__count col-lg-4 p-0">4</p>
+
+
+              </div>
+              <div class="col-lg-4 main-header__user-panel text-center pt-2 navbar-nav flex-row px-0">
+                <a class="col-lg-8 p-0 ml-3" href="">Wishlist</a>
+                <p class="main-header__count col-lg-4 p-0">27</p>
+              </div>
+              <div class="col-lg-4 main-header__user-panel text-center pt-2 navbar-nav flex-row pr-0 pl-3 pb-3">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="">My Account</a>
+                <ul class="dropdown-menu position-absolute main-header__user-dropdown" role="menu">
+                  <li><a href="">Личный кабинет</a></li>
+                  <li><a href="">Профиль</a></li>
+                  <li><a href="">Кредит</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-between  p-0">
+            <div class="col-lg-3 p-0">
+            </div>
+            <div class="col-lg-9 p-0">
+              <ul class="row justify-content-between ml-1 mr-1 mb-0 p-0">
+                <li class="text-center col-lg-1 px-0 py-2 main-header__links">
+                  <a href="">
+                    Deals
+                  </a>
+                </li>
+                <li class="text-center col-lg-1.5 px-0 py-2 main-header__links">
+                  <a href="">
+                    Mobile & Accessories
+                  </a>
+                </li>
+                <li class="text-center col-lg-1.5 px-0 py-2 main-header__links">
+                  <a href="">
+                    Laptops & Tablets
+                  </a>
+                </li>
+                <li class="text-center col-lg-1 px-0 py-2 main-header__links">
+                  <a href="">
+                    Fashion
+                  </a>
+                </li>
+                <li class="text-center col-lg-1.5 px-0 py-2 main-header__links">
+                  <a href="">
+                    Home & Living
+                  </a>
+                </li>
+                <li class="text-center col-lg-1 px-0 py-2 main-header__links">
+                  <a href="">
+                    Cameras
+                  </a>
+                </li>
+                <li class="text-center col-lg-1 px-0 py-2 main-header__links">
+                  <a href="">
+                    Televisions
+                  </a>
+                </li>
+                <li class="text-center col-lg-1.5 px-0 py-2 main-header__links">
+                  <a href="">
+                    Health & Beauty
+                  </a>
+                </li>
+                <li class="text-center col-lg-1.5 px-0 py-2 main-header__links">
+                  <a href="">
+                    All Electronics
+                  </a>
+                </li>
+                <li class="text-center col-lg-1 px-0 py-2 main-header__links main-header__links--help">
+                  <a href="">
+                    help
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container main-header__bottmon-grid">
+        <div class="row flex-row">
+          <div class="col-lg-3 main-header__shop px-0">
+            <div class="d-flex align-items-center">
+              <h1 class="main-header__shop-title m-0 text-center pt-2">Shop by Category</h1>
+            </div>
+            <ul class="col-lg-12 row flex-column px-0 m-0">
+              <li class="col-lg-12 main-header__shop-item d-flex px-0">
+                <a class="pl-4" href="dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Computer
+                </a>
+                <div class="dropdown-menu main-header__category-dropdown" aria-labelledby="navbarDropdownMenuLink">
+                  <a class="dropdown-item" href="#">Три один</a>
+                  <a class="dropdown-item" href="#">Три два</a>
+                  <a class="dropdown-item" href="#">Три три</a>
+                </div>
+              </li>
+              <li class="col-lg-12 main-header__shop-item d-flex px-0">
+                <a class="pl-4" href="dropdown-toggle" id="navbarDropdownMenuLink-2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Electronics
+                </a>
+                <div class="dropdown-menu main-header__category-dropdown" aria-labelledby="navbarDropdownMenuLink-2">
+                  <a class="dropdown-item" href="#">Три один</a>
+                  <a class="dropdown-item" href="#">Три два</a>
+                  <a class="dropdown-item" href="#">Три три</a>
+                </div>
+              </li>
+              <li class="col-lg-12 main-header__shop-item d-flex px-0">
+                <a class="pl-4" href="dropdown-toggle" id="navbarDropdownMenuLink-3" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Fliwers & Gilfs
+                </a>
+                <div class="dropdown-menu main-header__category-dropdown" aria-labelledby="navbarDropdownMenuLink-3">
+                  <a class="dropdown-item" href="#">Три один</a>
+                  <a class="dropdown-item" href="#">Три два</a>
+                  <a class="dropdown-item" href="#">Три три</a>
+                </div>
+              </li>
+              <li class="col-lg-12 main-header__shop-item d-flex px-0">
+                <a class="pl-4" href="dropdown-toggle" id="navbarDropdownMenuLink-4" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Furniture
+                </a>
+                <div class="dropdown-menu main-header__category-dropdown" aria-labelledby="navbarDropdownMenuLink-4">
+                  <a class="dropdown-item" href="#">Три один</a>
+                  <a class="dropdown-item" href="#">Три два</a>
+                  <a class="dropdown-item" href="#">Три три</a>
+                </div>
+              </li>
+              <li class="col-lg-12 main-header__shop-item d-flex px-0">
+                <a class="pl-4" href="dropdown-toggle" id="navbarDropdownMenuLink-5" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Groceries
+                </a>
+                <div class="dropdown-menu main-header__category-dropdown" aria-labelledby="navbarDropdownMenuLink-5">
+                  <a class="dropdown-item" href="#">Три один</a>
+                  <a class="dropdown-item" href="#">Три два</a>
+                  <a class="dropdown-item" href="#">Три три</a>
+                </div>
+              </li>
+              <li class="col-lg-12 main-header__shop-item d-flex px-0">
+                <a class="pl-4" href="dropdown-toggle" id="navbarDropdownMenuLink-6" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Health & Beauty
+                </a>
+                <div class="dropdown-menu main-header__category-dropdown" aria-labelledby="navbarDropdownMenuLink-6">
+                  <a class="dropdown-item" href="#">Три один</a>
+                  <a class="dropdown-item" href="#">Три два</a>
+                  <a class="dropdown-item" href="#">Три три</a>
+                </div>
+              </li>
+              <li class="col-lg-12 main-header__shop-item d-flex px-0">
+                <a class="pl-4" href="dropdown-toggle" id="navbarDropdownMenuLink-7" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Home Improvement
+                </a>
+                <div class="dropdown-menu main-header__category-dropdown" aria-labelledby="navbarDropdownMenuLink-7">
+                  <a class="dropdown-item" href="#">Три один</a>
+                  <a class="dropdown-item" href="#">Три два</a>
+                  <a class="dropdown-item" href="#">Три три</a>
+                </div>
+              </li>
+              <li class="col-lg-12 main-header__shop-item d-flex px-0">
+                <a class="pl-4" href="dropdown-toggle" id="navbarDropdownMenuLink-8" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Indoor Living
+                </a>
+                <div class="dropdown-menu main-header__category-dropdown" aria-labelledby="navbarDropdownMenuLink-8">
+                  <a class="dropdown-item" href="#">Три один</a>
+                  <a class="dropdown-item" href="#">Три два</a>
+                  <a class="dropdown-item" href="#">Три три</a>
+                </div>
+              </li>
+              <li class="col-lg-12 main-header__shop-item d-flex px-0">
+                <a class="pl-4" href="dropdown-toggle" id="navbarDropdownMenuLink-9" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Industrial Supply
+                </a>
+                <div class="dropdown-menu main-header__category-dropdown" aria-labelledby="navbarDropdownMenuLink-9">
+                  <a class="dropdown-item" href="#">Три один</a>
+                  <a class="dropdown-item" href="#">Три два</a>
+                  <a class="dropdown-item" href="#">Три три</a>
+                </div>
+              </li>
+              <li class="col-lg-12 main-header__shop-item d-flex px-0">
+                <a class="pl-4" href="dropdown-toggle" id="navbarDropdownMenuLink-10" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Jewelery & Watches
+                </a>
+                <div class="dropdown-menu main-header__category-dropdown" aria-labelledby="navbarDropdownMenuLink-10">
+                  <a class="dropdown-item" href="#">Три один</a>
+                  <a class="dropdown-item" href="#">Три два</a>
+                  <a class="dropdown-item" href="#">Три три</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+          <div class=" col-lg-9 row flex-column flex-nowrap ml-2 mt-2 p-0 main-header__slider">
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="Deals" role="tabpanel" aria-labelledby="pills-home-tab">
+                <img class="inline-block px-0 main-header__slide-img" src="./img/slide-1.jpg" alt="">
+              </div>
+              <div class="tab-pane fade" id="Laptops" role="tabpanel" aria-labelledby="pills-profile-tab">
+                <img class="inline-block px-0 main-header__slide-img" src="./img/slide-2.jpg" alt="">
+              </div>
+              <div class="tab-pane fade" id="mobile" role="tabpanel" aria-labelledby="pills-contact-tab">
+                <img class="inline-block px-0 main-header__slide-img" src="./img/slide-3.jpg" alt="">
+              </div>
+            </div>
+
+            <ul class="row nav nav-pills mx-0  main-header__button-list" id="pills-tab" role="tablist">
+              <li class="nav-item main-header__slide-button nav-item col-lg-2 px-0">
+                <a class=" px-0 col-lg-12 pb-3 pt-2 nav-link active" id="pills-home-tab" data-toggle="pill" href="#Deals" role="tab" aria-controls="pills-home" aria-selected="true">Daily Deals</a>
+              </li>
+              <li class="nav-item main-header__slide-button nav-item col-lg-2 px-0">
+                <a class=" px-0 col-lg-12 pb-3 pt-2 nav-link" id="pills-profile-tab" data-toggle="pill" href="#Laptops" role="tab" aria-controls="pills-profile" aria-selected="false">Laptops</a>
+              </li>
+              <li class="nav-item main-header__slide-button nav-item col-lg-2 px-0">
+                <a class=" px-0 col-lg-12 pb-3 pt-2 nav-link" id="pills-contact-tab" data-toggle="pill" href="#mobile" role="tab" aria-controls="pills-contact" aria-selected="false">Mobile</a>
+              </li>
+              <li class="nav-item main-header__slide-button nav-item col-lg-2 px-0">
+                <a class=" px-0 col-lg-12 pb-3 pt-2 nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Clothing</a>
+              </li>
+              <li class="nav-item main-header__slide-button nav-item col-lg-2 px-0">
+                <a class=" px-0 col-lg-12 pb-3 pt-2 nav-link" id="pills-profile-tab" data-toggle="pill" href="#pills-profile" role="tab" aria-controls="pills-profile" aria-selected="false">Kitchen Appliance</a>
+              </li>
+              <li class="nav-item main-header__slide-button nav-item col-lg-2 px-0">
+                <a class=" px-0 col-lg-12 pb-3 pt-2 nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Giflts Vounchers</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </header>
+
+  <main class="main mt-2">
+    <section class="container main__featured-collection featured-collection">
+      <div class="row justify-content-between featured-collection__title-grid pb-2 pt-3">
+        <div class="col-lg-3">
+          <h1 class="featured-collection__title">Featured Collection</h1>
+        </div>
+        <div class="col-lg-2 featured-collection__link px-0">
+          <a href="">see all Collection</a>
+        </div>
+      </div>
+
+      <div class="row justify-content-between featured-collection__main-grid">
+        <div class="col-lg-4 mb-lg-5">
+          <div class="ro3-lg-4">
+            <div class="row-lg-3 flex-column align-items-center mx-0">
+              <div class="col-lg-12 row flex-column px-0 mx-0">
+                <div class="col-lg-12 px-0">
+                  <img src="./img/product-1.jpg" alt="">
+                </div>
+                <div class="col-lg-12 row justify-content-between px-0 mx-0">
+                  <div class="col-lg-4 p-2 featured-collection__container-img">
+                    <img class="col-lg-12 p-2 featured-collection__img-mini" src="./img/product-2.jpg" alt="">
+                  </div>
+                  <div class="col-lg-4 p-2 featured-collection__container-img">
+                    <img class="col-lg-12 p-2 featured-collection__img-mini" src="./img/product-3.jpg" alt="">
+                  </div>
+                  <div class="col-lg-4 p-2 featured-collection__container-img">
+                    <img class="col-lg-12 p-2 featured-collection__img-mini" src="./img/product-4.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 mx-5 mt-4">
+                <h2 class="featured-collection__title-item">Smart Start</h2>
+              </div>
+              <div class="col-lg-8 mx-5 px-5">
+                <b class="featured-collection__count-price">17 items from <span>$35.5</span></b>
+              </div>
+              <div class="col-lg-8 mx-5 px-5 text-center">
+                <a class="featured-collection__shop-now" href=""> Shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-lg-5">
+          <div class="ro3-lg-4">
+            <div class="row-lg-3 flex-column align-items-center mx-0">
+              <div class="col-lg-12 row flex-column px-0 mx-0">
+                <div class="col-lg-12 px-0">
+                  <img src="./img/product-8.jpg" alt="">
+                </div>
+                <div class="col-lg-12 row justify-content-between px-0 mx-0">
+                  <div class="col-lg-4 p-2 featured-collection__container-img">
+                    <img class="col-lg-12 px-2 featured-collection__img-mini" src="./img/product-5.png" alt="">
+                  </div>
+                  <div class="col-lg-4 p-2 featured-collection__container-img">
+                    <img class="col-lg-12 px-2 featured-collection__img-mini" src="./img/product-6.png" alt="">
+                  </div>
+                  <div class="col-lg-4 p-2 featured-collection__container-img">
+                    <img class="col-lg-12 px-2 featured-collection__img-mini" src="./img/product-7.png" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 mx-5 mt-4">
+                <h2 class="featured-collection__title-item">Early Summer Style</h2>
+              </div>
+              <div class="col-lg-8 mx-5 px-5">
+                <b class="featured-collection__count-price">17 items from <span>$35.5</span></b>
+              </div>
+              <div class="col-lg-8 mx-5 px-5 text-center">
+                <a class="featured-collection__shop-now" href=""> Shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-lg-5">
+          <div class="ro3-lg-4">
+            <div class="row-lg-3 flex-column align-items-center mx-0">
+              <div class="col-lg-12 row flex-column px-0 mx-0">
+                <div class="col-lg-12 px-0">
+                  <img src="./img/product-9.jpg" alt="">
+                </div>
+                <div class="col-lg-12 row justify-content-between px-0 mx-0">
+                  <div class="col-lg-4 p-0 featured-collection__container-img">
+                    <img class="col-lg-12 p-0  featured-collection__img-mini" src="./img/product-9.jpg" alt="">
+                  </div>
+                  <div class="col-lg-4 p-0 featured-collection__container-img">
+                    <img class="col-lg-12 p-0  featured-collection__img-mini" src="./img/product-10.jpg" alt="">
+                  </div>
+                  <div class="col-lg-4 p-0 featured-collection__container-img">
+                    <img class="col-lg-12 p-0 featured-collection__img-mini" src="./img/product-11.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 mx-5 mt-4">
+                <h2 class="featured-collection__title-item">Start it up</h2>
+              </div>
+              <div class="col-lg-8 mx-5 px-5">
+                <b class="featured-collection__count-price">17 items from <span>$35.5</span></b>
+              </div>
+              <div class="col-lg-8 mx-5 px-5 text-center">
+                <a class="featured-collection__shop-now" href=""> Shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-lg-5">
+          <div class="ro3-lg-4">
+            <div class="row-lg-3 flex-column align-items-center mx-0">
+              <div class="col-lg-12 row flex-column px-0 mx-0">
+                <div class="col-lg-12 px-0">
+                  <img src="./img/bag-1.jpg" alt="">
+                </div>
+                <div class="col-lg-12 row justify-content-between px-0 mx-0">
+                  <div class="col-lg-4 p-2 featured-collection__container-img">
+                    <img class="col-lg-12 p-2 featured-collection__img-mini" src="./img/bag-2.jpg" alt="">
+                  </div>
+                  <div class="col-lg-4 p-2 featured-collection__container-img">
+                    <img class="col-lg-12 p-2 featured-collection__img-mini" src="./img/bag-3.jpg" alt="">
+                  </div>
+                  <div class="col-lg-4 p-2 featured-collection__container-img">
+                    <img class="col-lg-12 p-2 featured-collection__img-mini" src="./img/bag-4.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 mx-5 mt-4">
+                <h2 class="featured-collection__title-item">Take the weight off</h2>
+              </div>
+              <div class="col-lg-8 mx-5 px-5">
+                <b class="featured-collection__count-price">17 items from <span>$35.5</span></b>
+              </div>
+              <div class="col-lg-8 mx-5 px-5 text-center">
+                <a class="featured-collection__shop-now" href=""> Shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-lg-5">
+          <div class="ro3-lg-4">
+            <div class="row-lg-3 flex-column align-items-center mx-0">
+              <div class="col-lg-12 row flex-column px-0 mx-0">
+                <div class="col-lg-12 px-0">
+                  <img src="./img/watches-4.jpg" alt="">
+                </div>
+                <div class="col-lg-12 row justify-content-between px-0 mx-0">
+                  <div class="col-lg-4 p-2 featured-collection__container-img">
+                    <img class="col-lg-12 px-2 featured-collection__img-mini" src="./img/watches-2.jpg" alt="">
+                  </div>
+                  <div class="col-lg-4 p-2 featured-collection__container-img">
+                    <img class="col-lg-12 px-2 featured-collection__img-mini" src="./img/watches-3.jpg" alt="">
+                  </div>
+                  <div class="col-lg-4 p-2 featured-collection__container-img">
+                    <img class="col-lg-12 px-2 featured-collection__img-mini" src="./img/watches-1.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 mx-5 mt-4">
+                <h2 class="featured-collection__title-item">Watches under 100$</h2>
+              </div>
+              <div class="col-lg-8 mx-5 px-5">
+                <b class="featured-collection__count-price">17 items from <span>$35.5</span></b>
+              </div>
+              <div class="col-lg-8 mx-5 px-5 text-center">
+                <a class="featured-collection__shop-now" href=""> Shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 mb-lg-5">
+          <div class="ro3-lg-4">
+            <div class="row-lg-3 flex-column align-items-center mx-0">
+              <div class="col-lg-12 row flex-column px-0 mx-0">
+                <div class="col-lg-12 px-0">
+                  <img src="./img/phone1.jpg" alt="">
+                </div>
+                <div class="col-lg-12 row justify-content-between px-0 mx-0">
+                  <div class="col-lg-4 px-3 py-2 featured-collection__container-img">
+                    <img class="col-lg-12 px-4 py-2  featured-collection__img-mini" src="./img/phone2.jpg" alt="">
+                  </div>
+                  <div class="col-lg-4 px-3 py-2 featured-collection__container-img">
+                    <img class="col-lg-12 px-4 py-2  featured-collection__img-mini" src="./img/phone3.jpg" alt="">
+                  </div>
+                  <div class="col-lg-4 px-3 py-2 featured-collection__container-img">
+                    <img class="col-lg-12 px-4 py-2 featured-collection__img-mini" src="./img/phone4.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-8 mx-5 mt-4">
+                <h2 class="featured-collection__title-item">Smartphone</h2>
+              </div>
+              <div class="col-lg-8 mx-5 px-5">
+                <b class="featured-collection__count-price">17 items from <span>$35.5</span></b>
+              </div>
+              <div class="col-lg-8 mx-5 px-5 text-center">
+                <a class="featured-collection__shop-now" href=""> Shop now</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container mt-lg-3 main_daily-deals daily-deals px-lg-0">
+      <div class="row justify-content-between pt-4 pb-3 px-4 daily-deals__title-grid">
+        <div class="col-lg-2">
+          <h1 class="daily-deals__title">Daily Deals</h1>
+        </div>
+        <div class="col-lg-2 row flex-row">
+          <a class="daily-deals__link" href="">see more</a>
+          <div class="daily-deals__button">
+            <button class="daily-button daily-button--next carousel-control-prev mr-1" type="button" name="button" href="#carousel" role="button" data-slide="prev"></button>
+            <button class="daily-button daily-button--back carousel-control-next" type="button" name="button" href="#carousel" role="button" data-slide="next"></button>
+          </div>
+        </div>
+      </div>
+
+      <div id="carousel" class="carousel slide" data-ride="carousel">
+        <div class="row carousel-inner mx-0 px-0">
+
+          <div class="carousel-item active">
+            <div class="col-lg-3 mb-lg-5 daily-deals__item-block ">
+              <div class="ro3-lg-4">
+                <div class="row-lg-3 flex-column align-items-center">
+                  <div class="col-lg-12 dail-deals__img-block mt-4">
+                    <img src="./img/deals-1.png" alt="">
+                  </div>
+                  <div class="col-lg-12 mx-0 mt-4">
+                    <h2 class="dail-deals__title-item">
+                      Citizen Eco-Drive<br>
+                      Mens Watch
+                    </h2>
+                  </div>
+                  <div class="col-lg-8 mx-5 mt-3 daily-deals__price">
+                    <b>$228.90 <span>$260.90</span></b>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 mb-lg-5 daily-deals__item-block ">
+              <div class="ro3-lg-4">
+                <div class="row-lg-3 flex-column align-items-center">
+                  <div class="col-lg-12 dail-deals__img-block mt-4">
+                    <img src="./img/deals-4.png" alt="">
+                  </div>
+                  <div class="col-lg-12 mx-0 mt-4">
+                    <h2 class="dail-deals__title-item">
+                      Mens Faux-Leather<br>
+                      Bomber Jacket
+                    </h2>
+                  </div>
+                  <div class="col-lg-8 mx-5 mt-3 daily-deals__price">
+                    <b>$228.90 <span>$260.90</span></b>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 mb-lg-5 daily-deals__item-block ">
+              <div class="ro3-lg-4">
+                <div class="row-lg-3 flex-column align-items-center">
+                  <div class="col-lg-12 dail-deals__img-block mt-4">
+                    <img src="./img/deals-2.png" alt="">
+                  </div>
+                  <div class="col-lg-12 mx-0 mt-4">
+                    <h2 class="dail-deals__title-item">
+                      Dell Inspiron 13.3" <br>
+                      Touchscreen Laptop
+                    </h2>
+                  </div>
+                  <div class="col-lg-8 mx-5 mt-3 daily-deals__price">
+                    <b>$228.90 <span>$260.90</span></b>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 mb-lg-5 daily-deals__item-block ">
+              <div class="ro3-lg-4">
+                <div class="row-lg-3 flex-column align-items-center">
+                  <div class="col-lg-12 dail-deals__img-block mt-4">
+                    <img src="./img/deals-3.png" alt="">
+                  </div>
+                  <div class="col-lg-12 mx-0 mt-4">
+                    <h2 class="dail-deals__title-item">
+                      Panasonic<br>
+                      Lumix DMC-GH4
+                    </h2>
+                  </div>
+                  <div class="col-lg-8 mx-5 mt-3 daily-deals__price">
+                    <b>$228.90 <span>$260.90</span></b>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="col-lg-3 mb-lg-5 daily-deals__item-block ">
+              <div class="ro3-lg-4">
+                <div class="row-lg-3 flex-column align-items-center">
+                  <div class="col-lg-12 dail-deals__img-block mt-4">
+                    <img src="./img/deals-5.png" alt="">
+                  </div>
+                  <div class="col-lg-12 mx-0 mt-4">
+                    <h2 class="dail-deals__title-item">
+                      Citizen Eco-Drive<br>
+                      Mens Watch
+                    </h2>
+                  </div>
+                  <div class="col-lg-8 mx-5 mt-3 daily-deals__price">
+                    <b>$228.90 <span>$260.90</span></b>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 mb-lg-5 daily-deals__item-block ">
+              <div class="ro3-lg-4">
+                <div class="row-lg-3 flex-column align-items-center">
+                  <div class="col-lg-12 dail-deals__img-block mt-4">
+                    <img src="./img/deals-6.png" alt="">
+                  </div>
+                  <div class="col-lg-12 mx-0 mt-4">
+                    <h2 class="dail-deals__title-item">
+                      Mens Faux-Leather<br>
+                      Bomber Jacket
+                    </h2>
+                  </div>
+                  <div class="col-lg-8 mx-5 mt-3 daily-deals__price">
+                    <b>$228.90 <span>$260.90</span></b>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 mb-lg-5 daily-deals__item-block ">
+              <div class="ro3-lg-4">
+                <div class="row-lg-3 flex-column align-items-center">
+                  <div class="col-lg-12 dail-deals__img-block mt-4">
+                    <img src="./img/deals-7.png" alt="">
+                  </div>
+                  <div class="col-lg-12 mx-0 mt-4">
+                    <h2 class="dail-deals__title-item">
+                      Dell Inspiron 13.3" <br>
+                      Touchscreen Laptop
+                    </h2>
+                  </div>
+                  <div class="col-lg-8 mx-5 mt-3 daily-deals__price">
+                    <b>$228.90 <span>$260.90</span></b>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-lg-3 mb-lg-5 daily-deals__item-block ">
+              <div class="ro3-lg-4">
+                <div class="row-lg-3 flex-column align-items-center">
+                  <div class="col-lg-12 dail-deals__img-block mt-4">
+                    <img src="./img/deals-8.png" alt="">
+                  </div>
+                  <div class="col-lg-12 mx-0 mt-4">
+                    <h2 class="dail-deals__title-item">
+                      Panasonic<br>
+                      Lumix DMC-GH4
+                    </h2>
+                  </div>
+                  <div class="col-lg-8 mx-5 mt-3 daily-deals__price">
+                    <b>$228.90 <span>$260.90</span></b>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row daily-deals__button-block flex-row justify-content-center py-3 carousel-indicators mt-lg-2">
+          <button class="mx-lg-1 active" type="button" name="button" data-target="#carousel" data-slide-to="0"></button>
+          <button class="mx-lg-1" type="button" name="button" data-target="#carousel" data-slide-to="1"></button>
+          <button class="mx-lg-1" type="button" name="button" data-target="#carousel" data-slide-to="2"></button>
+          <button class="mx-lg-1" type="button" name="button" data-target="#carousel" data-slide-to="3"></button>
+          <button class="mx-lg-1" type="button" name="button" data-target="#carousel" data-slide-to="4"></button>
+          <button class="mx-lg-1" type="button" name="button" data-target="#carousel" data-slide-to="5"></button>
+        </div>
+      </div>
+    </section>
+
+
+    <section class="container mt-lg-4 main__tranding tranding mb-lg-4">
+      <div class="row justify-content-between py-lg-4 px-lg-3">
+        <div class="col-lg-4">
+          <h1 class="tranding__title">Todays tranding Collections</h1>
+        </div>
+        <div class="col-lg-3">
+          <a class="tranding__link" href="">Brows of trending Collections</a>
+        </div>
+      </div>
+
+      <div class="row justify-content-between">
+
+        <div class="col-lg-3 mb-lg-0 tranding__item-block">
+          <div class="ro3-lg-4">
+            <div class="row-lg-3 flex-column align-items-center">
+              <div class="col-lg-12 d-flex justify-content-center mt-lg-2">
+                <img src="./img/tranding-1.jpg" alt="">
+              </div>
+              <div class="row col-lg-12 mx-lg-0 px-lg-2 mt-lg-4">
+                <div class="col-lg-4 tranding__user-img px-lg-0">
+                  <img src="./img/user-1.jpg" alt="фотография создателя">
+                </div>
+                <div class="col-lg-8 tranding__user-info flex-column px-lg-0">
+                  <h2 class="tranding__items-title">Backyard Oasls</h2>
+                  <b class="tranding__items-created">Crwated by Ilzlamoreux</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-lg-0 tranding__item-block">
+          <div class="ro3-lg-4">
+            <div class="row-lg-3 flex-column align-items-center">
+              <div class="col-lg-12 d-flex justify-content-center">
+                <img src="./img/tranding-2.jpg" alt="" height="217">
+              </div>
+              <div class="row col-lg-12 mx-lg-0 px-lg-2 mt-lg-1">
+                <div class="col-lg-4 tranding__user-img px-lg-0">
+                  <img src="./img/user-1.jpg" alt="фотография создателя">
+                </div>
+                <div class="col-lg-8 tranding__user-info flex-column px-lg-0">
+                  <h2 class="tranding__items-title">Backyard Oasls</h2>
+                  <b class="tranding__items-created">Crwated by Ilzlamoreux</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-3 mb-lg-0 tranding__item-block">
+          <div class="ro3-lg-4">
+            <div class="row-lg-3 flex-column align-items-center">
+              <div class="col-lg-12 d-flex justify-content-center">
+                <img src="./img/tranding-3.jpg" alt="" height="200px">
+              </div>
+              <div class="row col-lg-12 mx-lg-0 px-lg-2 mt-lg-4">
+                <div class="col-lg-4 tranding__user-img px-lg-0">
+                  <img src="./img/user-1.jpg" alt="фотография создателя">
+                </div>
+                <div class="col-lg-8 tranding__user-info flex-column px-lg-0">
+                  <h2 class="tranding__items-title">Backyard Oasls</h2>
+                  <b class="tranding__items-created">Crwated by Ilzlamoreux</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 mb-lg-0 tranding__item-block">
+          <div class="ro3-lg-4">
+            <div class="row-lg-3 flex-column align-items-center">
+              <div class="col-lg-12 d-flex justify-content-center">
+                <img src="./img/tranding-4.jpg" alt="" height="200xp">
+              </div>
+              <div class="row col-lg-12 mx-lg-0 px-lg-2 mt-lg-4">
+                <div class="col-lg-4 tranding__user-img px-lg-0">
+                  <img src="./img/user-1.jpg" alt="фотография создателя">
+                </div>
+                <div class="col-lg-8 tranding__user-info flex-column px-lg-0">
+                  <h2 class="tranding__items-title">Backyard Oasls</h2>
+                  <b class="tranding__items-created">Crwated by Ilzlamoreux</b>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="container main__newsletter newsletter mb-lg-4">
+      <div class="row-lg-12">
+        <div class="col-lg-12">
+          <h1 class="newsletter__title pt-lg-5 pb-lg-3">
+            Subscribe to your newslist
+          </h1>
+          <form class="newsletter__form d-flex align-middle justify-content-center pb-lg-5" action="index.html" method="post">
+            <input class="newsletter__email-input" type="text" name="" value="" placeholder="Your-e email">
+            <input class="newsletter__submit" type="submit" name="" value="get started">
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main__footer main-footer">
+    <div class="container">
+      <section class="row justify-content-between pt-lg-4">
+        <div class="col-lg-2 p-0">
+          <h1 class="main-footer__title">Buy</h1>
+          <ul class="px-lg-0">
+            <li class="main-footer__item">
+              <a href="#">Registartion</a>
+            </li>
+            <li class="main-footer__item">
+              <a href="#">eBay Maney Back Guarantee</a>
+            </li>
+            <li class="main-footer__item">
+              <a href="#">Bidding & buying help</a>
+            </li>
+            <li class="main-footer__item">
+              <a href="#">Stores</a>
+            </li>
+            <li class="main-footer__item">
+              <a href="#">eBay Local</a>
+            </li>
+            <li class="main-footer__item">
+              <a href="#">eBay guides</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 row p-0 mr-0">
+          <div class="col-lg-10 p-0">
+            <h1 class="main-footer__title">Tools & apps</h1>
+            <ul class="px-lg-0">
+              <li class="main-footer__item">
+                <a href="#">Registartion</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">eBay Maney Back Guarantee</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">Bidding & buying help</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">Stores</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">eBay Local</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">eBay guides</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-10 p-0 mr-0">
+            <h1 class="main-footer__title">Sell</h1>
+            <ul class="px-lg-0">
+              <li class="main-footer__item">
+                <a href="#">Registartion</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">eBay Maney Back Guarantee</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">Bidding & buying help</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">Stores</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">eBay Local</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">eBay guides</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 row p-0 mr-0">
+          <div class="col-lg-10 p-0">
+            <h1 class="main-footer__title">eBay Companies</h1>
+            <ul class="px-lg-0">
+              <li class="main-footer__item">
+                <a href="#">Registartion</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">eBay Maney Back Guarantee</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">Bidding & buying help</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">Stores</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-10 p-0 mr-0">
+            <h1 class="main-footer__title">Stay Connect</h1>
+            <ul class="px-lg-0">
+              <li class="main-footer__item">
+                <a href="#">Registartion</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">eBay Maney Back Guarantee</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">Bidding & buying help</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">Stores</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-2 p-0 mr-0">
+          <h1 class="main-footer__title">About eBay</h1>
+          <ul class="px-lg-0">
+            <li class="main-footer__item">
+              <a href="#">Registartion</a>
+            </li>
+            <li class="main-footer__item">
+              <a href="#">eBay Maney Back Guarantee</a>
+            </li>
+            <li class="main-footer__item">
+              <a href="#">Bidding & buying help</a>
+            </li>
+            <li class="main-footer__item">
+              <a href="#">Stores</a>
+            </li>
+            <li class="main-footer__item">
+              <a href="#">eBay Local</a>
+            </li>
+            <li class="main-footer__item">
+              <a href="#">eBay guides</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 row p-0 mr-0">
+          <div class="col-lg-10 p-0">
+            <h1 class="main-footer__title">Help & Contact</h1>
+            <ul class="px-lg-0">
+              <li class="main-footer__item">
+                <a href="#">Registartion</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">eBay Maney Back Guarantee</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">Bidding & buying help</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">Stores</a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-10 p-0 mr-0">
+            <h1 class="main-footer__title">Community</h1>
+            <ul class="px-lg-0">
+              <li class="main-footer__item">
+                <a href="#">Registartion</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">eBay Maney Back Guarantee</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">Bidding & buying help</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">Stores</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">Registartion</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">eBay Maney Back Guarantee</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">Bidding & buying help</a>
+              </li>
+              <li class="main-footer__item">
+                <a href="#">Stores</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </section>
+
+    </div>
+
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+.daily-deals {
+  background-color: #ffffff;
+
+  .daily-deals__title {
+    font-size: 24px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .daily-deals__link {
+    font-size: 13px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    color: #0064d2;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 15px;
+  }
+
+  .daily-button {
+    width: 35px;
+    height: 35px;
+    border: none;
+    background-color: #62bf43;
+    background-repeat: no-repeat;
+    background-position: 9px 3px;
+    background-size: 16px;
+    position: static;
+    opacity: 1;
+
+    &--next {
+      background-image: url("./../img/arrow-back.svg");
+    }
+
+    &--back {
+      background-image: url("./../img/arrow-next.svg");
+    }
+  }
+
+  .daily-deals__button {
+    display: flex;
+  }
+
+  .daily-deals__item-block {
+    display: inline-block;
+    border: 1px solid #e2ebec;
+    height: 300px;
+    margin-bottom: 0!important;
+    width: 24.7%;
+  }
+
+  .dail-deals__img-block {
+    text-align: center;
+  }
+
+  .dail-deals__title-item {
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .daily-deals__price {
+    text-align: center;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    color: #a3a9ad;
+    text-decoration: line-through;
+  }
+
+  .daily-deals__price span {
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .daily-deals__button-block {
+    text-align: center;
+    position: static;
+  }
+
+  .daily-deals__button-block button {
+    width: 9px;
+    height: 16px;
+    border-radius: 100%;
+    border: 2px solid #d7dadb;
+    background-color: inherit;
+  }
+
+  .carousel-item.active {
+    display: block;
+  }
+
+  .carousel-indicators .active {
+    background-color: #7a8085;
+    border-color: #7a8085;
+  }
+}

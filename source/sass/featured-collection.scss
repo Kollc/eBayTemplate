@@ -1,0 +1,61 @@
+.featured-collection {
+  .featured-collection__title {
+    font-size: 24px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .featured-collection__title-grid {
+    border-bottom: 1px solid #e2ebec;
+  }
+
+  .featured-collection__link {
+    font-size: 13px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    color: #0064d2;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .featured-collection__link a {
+    border-bottom: 1px solid #0064d2;
+  }
+
+  .featured-collection__img-mini {
+    width: 100%;
+    height: 73px;
+  }
+
+  .featured-collection__container-img {
+    border: 1px solid #cdcfd1;
+  }
+
+  .featured-collection__title-item {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .featured-collection__count-price {
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    color: #6e747a;
+  }
+
+  .featured-collection__count-price span {
+    color: #e53238;
+  }
+
+  .featured-collection__shop-now {
+    font-size: 14px;
+    line-height: 26px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+    color: #0064d2;
+    border-bottom: 1px solid #0064d2;
+  }
+}

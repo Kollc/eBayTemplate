@@ -1,0 +1,43 @@
+.tranding {
+  background-color: #ffffff;
+
+  .tranding__title {
+    font-size: 24px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .tranding__link {
+    font-size: 13px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    color: #0064d2;
+    font-weight: bold;
+    text-align: center;
+    margin-right: 15px;
+  }
+
+  .tranding__item-block {
+    height: 300px;
+    border: 1px solid #edf1f2;
+  }
+
+  .tranding__items-title {
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    color: #575757;
+  }
+
+  .tranding__items-created {
+    font-size: 13px;
+    line-height: 26px;
+    font-family: 'Montserrat', sans-serif;
+    color: #575757;
+  }
+
+  .tranding__user-img img {
+    width: 60px;
+    height: 60px;
+  }
+}
